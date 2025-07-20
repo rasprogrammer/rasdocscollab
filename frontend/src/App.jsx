@@ -1,12 +1,13 @@
-import { useState } from "react";
 
-function App() {
+import SystemApp from "./apps/SystemApp";
+import { BrowserRouter } from "react-router-dom";
 
+const App = () => {
   return (
-    <>
-      <h2 className="text-center ">RAS Docs Collab</h2>
-    </>
+    <BrowserRouter>
+      <SystemApp />
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
