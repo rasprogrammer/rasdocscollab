@@ -4,7 +4,9 @@ import ProfileBox from "@/components/ProfileBox";
 export default function Sidebar() {
   return (
     <>
-    <h2>Sidebar </h2>
+      <div className="float-right p-5 mb-2">
+        <ProfileBox />
+      </div>
     </>
   );
 }
