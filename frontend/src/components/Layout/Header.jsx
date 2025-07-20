@@ -1,9 +1,11 @@
-const Header = () => {
-    return (
-        <header>
-            <h1>My Application</h1>
-        </header>
-    );
-};
+import DocOptions from "@/components/Doc/DocOptions";
+import ProfileBox from "@/components/ProfileBox";
 
-export default Header;
+export default function Header() {
+  return (
+    <div className="flex items-center justify-between px-5">
+      <DocOptions />
+      <ProfileBox />
+    </div>
+  );
+}

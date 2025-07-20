@@ -1,12 +1,15 @@
 
 import {Routes, Route} from 'react-router-dom';
 
-import Dashboard from '@/pages/Dashboard';
+import Home from '@/pages/Home';
+import Doc from '@/pages/Doc';
 
 const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/doc" element={<Doc />} />
     </Routes>
   );
 };

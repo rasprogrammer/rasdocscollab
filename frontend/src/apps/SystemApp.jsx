@@ -3,7 +3,7 @@ import AuthRouter from "@/router/AuthRouter";
 import AppRouter from "@/router/AppRouter";
 
 const SystemApp = () => {
-  const isLoggedIn = false;
+  const isLoggedIn = true;
 
   if (isLoggedIn) {
     return (
